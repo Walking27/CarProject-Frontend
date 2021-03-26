@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CarDetailDto } from 'src/app/models/carDetailDto';
 
 @Component({
   selector: 'app-car-detail-dto',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class CarDetailDtoComponent implements OnInit {
 
   constructor() { }
+  carDetailDtos:CarDetailDto[]=[]
 
   ngOnInit(): void {
   }
