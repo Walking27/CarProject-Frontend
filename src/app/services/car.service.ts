@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core'
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http' 
 import { ListResponseModel } from '../models/listResponseModel';
@@ -9,7 +9,7 @@ import { CarDetailDto } from '../models/carDetailDto';
 })
 export class CarService {
 
-  apiUrl: "https://localhost:44371/api/cars/"
+  apiUrl = "https://localhost:44371/api/cars/"
  
   constructor(private httpClient:HttpClient) { }
 

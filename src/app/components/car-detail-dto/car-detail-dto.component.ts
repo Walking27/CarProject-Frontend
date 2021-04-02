@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
 import { CarDetailDto } from 'src/app/models/carDetailDto';
 
 @Component({

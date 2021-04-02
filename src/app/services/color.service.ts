@@ -1,6 +1,6 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core'
 import { Observable } from 'rxjs';
-import { HttpClient } from '@angular/common/http' 
+import { HttpClient } from '@angular/common/http'
 import { ListResponseModel } from '../models/listResponseModel';
 import { Color } from '../models/color';
 
@@ -9,7 +9,7 @@ import { Color } from '../models/color';
 })
 export class ColorService {
 
-  apiUrl: "https://localhost:44371/api/colors/"
+  apiUrl= "https://localhost:44371/api/colors/"
 
   constructor(private httpClient:HttpClient) { }
 
