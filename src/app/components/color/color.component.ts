@@ -26,12 +26,20 @@ export class ColorComponent implements OnInit {
       this.currentColor = color
     }
 
-    gerCurrentColorClass(color:Color){
+    getCurrentColorClass(color:Color){
       if(color == this.currentColor){
         return "list-group-item active"
       }else{
         return "list-group-item"
       }
     }
+
+getAllColorClass(){
+  if(!this.currentColor){
+    return "list-group-item active"
+  }else{
+    return "list-group-item"
+  }
+}
 
 }

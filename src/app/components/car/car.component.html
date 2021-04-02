@@ -7,15 +7,15 @@
         <th>Id</th>
         <th>Marka</th>
         <th>Renk</th>
-        <th>fiyat</th>
-        <th>Günlük fiyat</th>
+        <th>modelYear</th>
+        <th>description</th>
     </tr>
 </thead>
     <tr *ngFor="let car of cars">
         <td>{{car.carId}}</td>
         <td>{{car.brandName}}</td>
         <td>{{car.colorName}}</td>
-        <td>{{car.dailyPrice}}</td>
         <td>{{car.modelYear}}</td>
+        <td>{{car.description}}</td>
     </tr>
 </table>

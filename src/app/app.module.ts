@@ -8,6 +8,7 @@ import { CarComponent } from './components/car/car.component';
 import { NaviComponent } from './components/navi/navi.component';
 import { CarDetailDtoComponent } from './components/car-detail-dto/car-detail-dto.component';
 import { ColorComponent } from './components/color/color.component';
+import { BrandComponent } from './components/brand/brand.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ColorComponent } from './components/color/color.component';
     NaviComponent,
     CarDetailDtoComponent,
     ColorComponent,
+    BrandComponent,
   ],
   imports: [
     BrowserModule,
